@@ -7,6 +7,15 @@
 
 }
 
-.item:nth-child(1) {
+.item:nth-child(5) {
     background-color: #080;
+    order: -1;
+}
+.item:nth-child(2) {
+    background-color: #404040;
+    order: 3;
+}
+.item:nth-child(1) {
+    background-color: #808080;
+    order: 5;
 }
