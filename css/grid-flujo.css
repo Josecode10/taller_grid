@@ -1,0 +1,12 @@
+@import url(style.css);
+
+.flujo-grid {
+    /* Grid: 5c ifr x 3r 150px */
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    grid-template-rows: repeat(3, 150px);
+
+    grid-auto-flow: auto;
+    grid-auto-rows: 100px;
+    grid-template-columns: auto;
+}

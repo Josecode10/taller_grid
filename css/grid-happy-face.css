@@ -1,0 +1,77 @@
+@import url(style.css);
+
+.happy-face {
+    display: grid;
+    grid-template-rows: repeat(20, 1fr);
+    grid-template-columns: repeat(20, 1fr);
+    grid-template-areas: ". . . . . . . . . . . . . . . . . . . ."
+    ". . . . . . . . . . . . . . . . . . . ."
+    ". . . . . . . . . . . . . . . . . . . ."
+    ". . . . . . . . . . . . . . . . . . . ."
+    ". . . . left-eye left-eye . . . . . . . . right-eye right-eye . . . ."
+    ". . . . left-eye left-eye . . . . . . . . right-eye right-eye . . . ."
+    ". . . . . . . . . . . . . . . . . . . ."
+    ". . . . . . . . . . . . . . . . . . . ."
+    ". . . . . . . . . nose nose . . . . . . . . ."
+    ". . . . . . . . . nose nose . . . . . . . . ."
+    ". . . . . . . . . nose nose . . . . . . . . ."
+    ". . . mouth1 . . . . . . . . . . . . mouth6 . . ."
+    ". . . . mouth2 . . . . . . . . . . mouth5 . . . ."
+    ". . . . . mouth3 . . . . . . . . mouth4 . . . . ."
+    ". . . . . . mouth mouth mouth mouth mouth mouth mouth mouth . . . . . ."
+    ". . . . . . . . . . . . . . . . . . . ."
+    ". . . . . . . . . . . . . . . . . . . ."
+    ". . . . . . . . . . . . . . . . . . . ."
+    ". . . . . . . . . . . . . . . . . . . ."
+    ;
+}
+
+.left-eye {
+    grid-area: left-eye;
+    background-color: #808080;
+}
+
+.right-eye {
+    grid-area: right-eye;
+    background-color: #808080;
+}
+
+.nose {
+    grid-area: nose;
+    background-color: #808080;
+}
+
+.mouth {
+    grid-area: mouth;
+    background-color: #808080;
+}
+
+.mouth1 {
+    grid-area: mouth1;
+    background-color: #808080;
+}
+
+.mouth2 {
+    grid-area: mouth2;
+    background-color: #808080;
+}
+
+.mouth3 {
+    grid-area: mouth3;
+    background-color: #808080;
+}
+
+.mouth4 {
+    grid-area: mouth4;
+    background-color: #808080;
+}
+
+.mouth5 {
+    grid-area: mouth5;
+    background-color: #808080;
+}
+
+.mouth6 {
+    grid-area: mouth6;
+    background-color: #808080;
+}
